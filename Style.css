@@ -107,3 +107,6 @@ h2{
   background-color: #00A69F;
   color: white;
 }
+
+/*For Phones*/
+@media only screen and (max-witdth: 600px)
