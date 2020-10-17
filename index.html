@@ -2,14 +2,12 @@
 <html lang="en" dir="ltr">
 
 <head>
-
-  <head>
-    <!-- "head" here we should put link to the css, browser information. mm
-    -->
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="Style.css" type="text/css ">
-    <title>Make it responsive Website</title>
-  </head>
+  <!-- "head" here we should put link to the css, browser information. mm
+  -->
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Style.css" type="text/css ">
+  <title>Make it responsive Website</title>
+</head>
 
 <body>
   <!--- "body" here we all the contents.
@@ -17,21 +15,19 @@
     -->
   <header id="header">
       <!--here we should use css to create dropdown-->
-
-
             <ul id="navBar">
-              <li><a style="text-decoration:none; color:black" href="#description">Company Description</a></li>
-              <li><a style="text-decoration:none; color:black" href="#staff">Staff Members</a></li>
-              <li><a style="text-decoration:none; color:black" href="#Products">Future Innovation Camps</a></li>
-              <li><a style="text-decoration:none; color:black" href="#contact">Contact Information</a></li>
+              <li><a style="text-decoration:none; color:white" href="#description">Company Description</a></li>
+              <li><a style="text-decoration:none; color:white" href="#staff">Leadership</a></li>
+              <li><a style="text-decoration:none; color:white" href="#Products">Future Innovation Camps</a></li>
+              <li><a style="text-decoration:none; color:white" href="#contact">Contact Information</a></li>
             </ul>
 
     <div id="description">
-      <h1>ENOVA NORWAY AS</h1>
-
+      <h1 style= "font-size:5vw; color: white">ENOVA NORWAY AS</h1>
     </div>
 
 </header>
+
 
   <main id="Products">
 
@@ -62,34 +58,40 @@
       production to
       other countries in Africa.</p>
   </main>
-  <h2>Staff members:</h2>
-  <div id="staff" class="grid-container">
-    <div class="grid-item">
-      <!--<img id="image" src="pic2.jpg"  >-->
-      Central Executive Officer
+
+  
+  <h2>Leadership:</h2>
+  
+  <!--
+  <div id="container">
+    <div id="staff" class="grid-container">
+      <div class="grid-item">CFO: Bill Gates</div>
+      <div class="grid-item">CEO: Denis Napast</div>
+      <div class="grid-item">CTO: Mohammad Tarek Abdalmuhsen </div>
+      <div class="grid-item">CIO: Abdikadir Abdullahi Isack</div>
     </div>
-    <div class="grid-item">CFO: Central Financial Officer</div>
-    <div class="grid-item">CTO: Central Technology Officer</div>
-    <div class="grid-item">CIO: Central Innovation Officer</div>
-
   </div>
-
+  -->
+  <div class = "container">
+  <img src="picture.jpg " class = "image">
+  </div>
+  
 
   <div>
     <h2>Employees in Oslo:</h2>
-    <ul>
+    <ul id = "employees">
       <li>Research and development</li>
       <li>Marketing, Financing.</li>
     </ul>
 
     <h2>Employees in India:</h2>
-    <ol>
+    <ul>
       <li>Workers in the factories</li>
       <li>Support Engineers</li>
-    </ol>
-
-
+    </ul>
   </div>
+
+
 
   <div id="contact">
     <p>Telephone number: +47 49 93 29 32</p>

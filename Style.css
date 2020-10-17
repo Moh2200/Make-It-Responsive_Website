@@ -1,30 +1,59 @@
-
-*{
-  margin-top: 0;
+html {
+  font-family: sans-serif, Arial, Helvetica;
 }
-/*hhkhkjhjkh*/
+*{
+  margin-top: 0px;
+}
+body{/* Maring 0 will fill in color on top to the edges */
+  margin:0;
+}
+
+p{ /* all paragraph text to 17px */
+  font-size: 17px;
+  padding-left: 20px;
+  margin: 25px;
+  line-height: 1.5; /* space between the text */
+  
+  
+}
+li{
+  font-size: 17px;
+  margin: 25px;
+  line-height: 1.5;
+  margin: 10px;/* space between the horizontal lines in a list */
+}
 
 h2{
-  color: DarkSalmon;
-  font-style: italic;
+  color: #00A69F;
+  font-style: sans-serif, Arial, Helvetica;
+  max-width: 100%;
   font-weight: bold;
+  padding-left: 20px;
+}
+#employees{
+  font-size: 17px;
+  padding-left: 20px;
+  margin: 25px;
+}
+
+.container{ /*Container around the CFO, CEO...*/
+  overflow: hidden;
 }
 
 #header{
   margin-left: 0;
   width: 100%;
-  background-color: DarkSalmon;
-  /*background-image: /url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");*/
+  background-color: #00A69F;
+  /*background-image: /url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  */
 }
-
-
 
 #navBar{
   padding-top: 10px;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 18px;
   color: tomato;
 
@@ -41,32 +70,40 @@ h2{
 
 
 .grid-container{
+  padding-bottom: 5px;
   display: grid;
-  grid-template-columns: auto auto ;
-  background-color: black;
-  padding: 10px;
+  grid-template-columns: auto auto;
+  background-color: white;
+  padding: 8px;
   height: auto;
+  
 }
 .grid-item {
   color: white;
-  background-color: DarkSalmon;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+  background-color: #00A69F;
+  border: 1px solid white;
+  padding: 15px;
+  font-size: 28px;
   text-align: center;
   max-width: 100%;
   max-height: 100%;
+ 
 }
 
-#image{
-  max-width: 100% ;
-  max-height: inherit;
+.image{
+  margin-right: auto;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  max-width: 95% ;
+  max-height: 400px;
+  
+
 
 }
 
 #contact {
   text-align: center;
   padding: 3px;
-  background-color: DarkSalmon;
+  background-color: #00A69F;
   color: white;
 }
