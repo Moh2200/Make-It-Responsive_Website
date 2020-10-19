@@ -36,9 +36,11 @@ h2{
 
 #logo{
   color:white;
-  font-size:2.9vw;
+  font-size:4vw;
   text-align: center;
   margin-left: 0;
+  padding-top:0px;
+  margin: 0;
 
   width: 100%;
   background-color: #00A69F;
@@ -54,7 +56,7 @@ h2{
 }
 
 #navBar{
-  padding-bottom: -5px;
+  padding-bottom: 0px;
   display: inline;
   list-style-type: none;
   padding-top: 0px;
@@ -78,6 +80,34 @@ h2{
 
 .container{ /*Container around the CFO, CEO...*/
   overflow: hidden; /* Overflow line has been taken from https://www.w3schools.com/css/css_overflow.asp */
+}
+.containerMenuBar{
+  float: none;
+  display: inline;
+  width: 100%;
+  text-align: left; /* If you want the text to be left-aligned on small screens */
+}
+@media screen and (max-width:500px){ /*This block of code (From @medi to the end of it was taken from https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
+  .containerMenuBar{
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+
+  .logo{
+    color:white;
+    font-size:2.9vw;
+    text-align: center;
+    margin-left: 0;
+    padding-top:0px;
+    margin: 0;
+
+    width: 100%;
+    background-color: #00A69F;
+  }
+
+
 }
 /*
 .listcontainer{
