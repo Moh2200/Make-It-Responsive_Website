@@ -36,7 +36,7 @@ h2{
 
 #logo{
   color:white;
-  font-size:4vw;
+  font-size:2.9vw;
   text-align: center;
   margin-left: 0;
   padding-top:0px;
@@ -87,7 +87,16 @@ h2{
   width: 100%;
   text-align: left; /* If you want the text to be left-aligned on small screens */
 }
-@media screen and (max-width:500px){ /*This block of code (From @medi to the end of it was taken from https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
+
+.image{ /*automatic image resize*/
+  margin-right: auto;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  max-width: 95% ;
+  max-height: 400px;
+}
+
+@media screen and (max-width:600px){ /*This block of code (From @media to the end of it was taken from https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
   .containerMenuBar{
     float: none;
     display: block;
@@ -96,8 +105,9 @@ h2{
   }
 
   .logo{
+    word-break: break-all; /* This line of code was taken from https://css-tricks.com/almanac/properties/w/word-break/ */
     color:white;
-    font-size:2.9vw;
+    font-size:3vw;
     text-align: center;
     margin-left: 0;
     padding-top:0px;
@@ -105,6 +115,16 @@ h2{
     width: 100%;
     background-color: #00A69F;
   }
+
+  h2{
+    color: #00A69F; /* The color has been taken from Teknas logo at https://www.tekna.no/en/ */
+    font-style: sans-serif, Arial, Helvetica;
+    font-size: 20px;
+    max-width: 100%;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  
 
 
 }
@@ -139,13 +159,6 @@ h2{
 }
 */
 
-.image{
-  margin-right: auto;
-  padding-left: 10px;
-  padding-bottom: 15px;
-  max-width: 95% ;
-  max-height: 400px;
-}
 
 
 
